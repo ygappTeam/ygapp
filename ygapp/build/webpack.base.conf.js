@@ -46,6 +46,10 @@ module.exports = {
         }
       },
       {
+        test: /\.scss$/,
+        loader: 'style!css!sass'
+      },
+      {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         query: {
