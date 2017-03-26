@@ -1,0 +1,39 @@
+.clearfix {
+  &:after {
+    display: block;
+    height: 0;
+    content: "";
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+.outline{
+  outline-width: 0;
+}
+
+@mixin fs($fs:0.4rem){
+  font-size:$fs;
+}
+@mixin pl($pl){
+  padding-left:$pl;
+}
+@mixin t-l($tl){
+  text-align:$tl;
+}
+@mixin mb($mb){
+  margin-bottom: $mb;
+}
+@mixin mt($mt){
+  margin-top:$mt;
+}
+@mixin lh($lh){
+  line-height:$lh;
+}
+
+@mixin pb($pb){
+  padding-bottom:$pb;
+}
+@mixin w($w){
+  width:$w;
+}

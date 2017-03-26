@@ -1,3 +1,6 @@
 @mixin h($h){
   height:$h;
 }
+@mixin w($w){
+  width:$w;
+}

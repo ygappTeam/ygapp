@@ -1,0 +1,136 @@
+
+.login {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #f8f8f8;
+  input, button {
+    border: none;
+    outline: 0;
+  }
+  .sp {
+    display: block;
+    width: 18px;
+    height: 20px;
+    float: left;
+  }
+  .userInfo {
+    margin-top: 30px;
+    background: #fff;
+    width: 100%;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+  }
+  .userInfo li {
+    height: 2.5rem;
+    padding: 15px 0;
+    line-height: 1.2rem;
+    border-bottom: 1px #e7e7e7 solid;
+    input {
+      font-size: 16px;
+      padding-left: 10px;
+    }
+  }
+
+  .userName span {
+    @extend .sp;
+    background: url("http://img07.yiguoimg.com/e/web/160104/02423/150313/icon_username.png") no-repeat top;
+    background-size: 100%;
+  }
+  .password span {
+    @extend .sp;
+    background: url("http://img07.yiguoimg.com/e/web/160104/02423/150313/icon_password.png") no-repeat top;
+    background-size: 100%;
+  }
+  .userInfo .code {
+    padding-left: 15px;
+  }
+  .code span {
+    display: block;
+    float: right;
+    height: 1.5rem;
+    width: 2.6rem;
+    font-size: 0.8rem;
+    margin-right: 30px;
+    border: 1px #000000 solid;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .forget_password {
+    padding-top: 20px;
+    color: #008842;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 15px;
+  }
+  .btn {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.95rem;
+    justify-content: space-around;
+    button {
+      font-size: 0.8rem;
+      width: 40%;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 5px;
+    }
+  }
+  .coop {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #AAAAAA;
+    font-size: 15px;
+    margin-top: 1.5rem;
+  }
+  #login {
+    background: #008842;
+    color: #fff;
+  }
+  #register {
+    background: #fff;
+    color: #008842;
+    border: 1px #008842 solid;
+  }
+  .third {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    a {
+      display: block;
+      width: 4.355rem;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .qq {
+      background: url("http://img02.yiguo.com/e/web/150623/00781/173832/login-qq.png") no-repeat center;
+      background-size: auto 100%;
+    }
+    .weibo {
+      background: url("http://img02.yiguo.com/e/web/150623/00781/173832/login-weibo.png") no-repeat center;
+      background-size: auto 100%;
+    }
+  }
+
+  .footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    text-align: center;
+  }
+  .footer img {
+    border: none;
+    display: inline-block;
+    width: 5.2rem;
+    height: 1.7rem;
+  }
+}
+
+

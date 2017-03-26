@@ -1,0 +1,69 @@
+[
+  {
+    "CommodityName":"智利红提1kg",
+    "SmallPic":"http://img10.yiguoimg.com/e/items/2017/170314/9288705202430574_300.jpg",
+    "OriginalPrice": "39.9",
+    "MaxLimitCount": 20,
+    "SaleText": "29.9",
+    "Spec": "1kg/份",
+    "SubTitle": "每周一，二，六，日配送",
+    "number":2,
+    "sendImg":"http://img07.yiguoimg.com/e/web/160223/00909/161252/07.png",
+    "goodsId":0
+  },{
+    "CommodityName":"智利红提1kg",
+    "SmallPic":"http://img10.yiguoimg.com/e/items/2017/170314/9288705202430574_300.jpg",
+    "OriginalPrice": "39.9",
+    "MaxLimitCount": 20,
+    "SaleText": "29.9",
+    "Spec": "1kg/份",
+    "SubTitle": "每周一，二，六，日配送",
+    "number":2,
+    "sendImg":"http://img07.yiguoimg.com/e/web/160223/00909/161252/07.png",
+    "goodsId":1
+},{
+    "CommodityName":"智利红提1kg",
+    "SmallPic":"http://img10.yiguoimg.com/e/items/2017/170314/9288705202430574_300.jpg",
+    "OriginalPrice": "39.9",
+    "MaxLimitCount": 20,
+    "SaleText": "29.9",
+    "Spec": "1kg/份",
+    "SubTitle": "每周一，二，六，日配送",
+    "number":2,
+    "sendImg":"http://img07.yiguoimg.com/e/web/160223/00909/161252/07.png",
+    "goodsId":2
+},{
+    "CommodityName":"智利红提1kg",
+    "SmallPic":"http://img10.yiguoimg.com/e/items/2017/170314/9288705202430574_300.jpg",
+    "OriginalPrice": "39.9",
+    "MaxLimitCount": 20,
+    "SaleText": "29.9",
+    "Spec": "1kg/份",
+    "SubTitle": "每周一，二，六，日配送",
+    "number":2,
+    "sendImg":"http://img07.yiguoimg.com/e/web/160223/00909/161252/07.png",
+    "goodsId":3
+},{
+    "CommodityName":"智利红提1kg",
+    "SmallPic":"http://img10.yiguoimg.com/e/items/2017/170314/9288705202430574_300.jpg",
+    "OriginalPrice": "39.9",
+    "MaxLimitCount": 20,
+    "SaleText": "29.9",
+    "Spec": "1kg/份",
+    "SubTitle": "每周一，二，六，日配送",
+    "number":2,
+    "sendImg":"http://img07.yiguoimg.com/e/web/160223/00909/161252/07.png",
+    "goodsId":4
+},{
+    "CommodityName":"智利红提1kg",
+    "SmallPic":"http://img10.yiguoimg.com/e/items/2017/170314/9288705202430574_300.jpg",
+    "OriginalPrice": "39.9",
+    "MaxLimitCount": 20,
+    "SaleText": "29.9",
+    "Spec": "1kg/份",
+    "SubTitle": "每周一，二，六，日配送",
+    "number":2,
+    "sendImg":"http://img07.yiguoimg.com/e/web/160223/00909/161252/07.png",
+    "goodsId":5
+}
+]

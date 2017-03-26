@@ -1,0 +1,219 @@
+#index {
+	background: #eee;
+	padding-bottom: 2rem;
+	padding-top: 1.54rem;
+	font-size: 0.6rem;
+	font-weight: "微软雅黑";
+}
+#index a {
+	color: #333;
+	text-decoration: none;
+}
+
+#index-swipe {
+	width: 100%; height: 9.25rem;
+}
+#index-swipe img {
+	width: 100%; height: 9.25rem;
+}
+
+
+#index-menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px;
+	background: #fff;
+}
+#index-menu li {
+	width: 25%;
+	margin-bottom: 10px; 
+}
+#index-menu li a {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+}
+#index-menu li a img {
+	display: block;
+	width: 2rem;
+	margin: 0 auto;
+}
+#index-menu li a span {
+	display: block;
+	text-align: center;
+}
+
+#pro-list .pro-item {
+	margin-bottom: 10px;
+	background: #fff;
+}
+#pro-list .pro-item .b-img {
+	display: block;
+	overflow: hidden;
+}
+#pro-list .pro-item .b-img img {
+	width: 100%;
+}
+#pro-list .pro-item .pro-wrap {
+	height: 7.25rem;
+	overflow: hidden;
+}
+#pro-list .pro-item .pro-list {
+	overflow-x: auto;
+	width: 100%;
+	padding: 0 10px;
+}
+#pro-list .pro-item ul {
+	background: #fff;
+	width: 33rem; height: 8rem;
+}
+#pro-list .pro-item ul li {
+	float: left;
+	margin-top: 10px;
+}
+#pro-list .pro-item ul li a {
+	display: block;
+	width: 4.5rem;
+	position: relative;
+}
+#pro-list .pro-item ul li a .new {
+	width: 1.5rem; height: 1.5rem;
+	position: absolute;
+	top: 0; left: 0;
+}
+#pro-list .pro-item ul li a .pro-img {
+	width: 4.5rem; height: 4.5rem;
+	margin-bottom: 10px;
+}
+#pro-list .pro-item ul li a .pro-name {
+	text-align: center;
+}
+#pro-list .pro-item ul li a .pro-price {
+	text-align: center;
+	color: #f00;
+}
+#pro-list .pro-item ul li a .pro-price span {
+	color: #999;
+}
+#pro-list .pro-item ul .more {
+	float: left;
+	position: relative;
+	width: 1.5rem; height: 100%;
+	color: #666;
+}
+#pro-list .pro-item ul .more span {
+	display: block;
+	position: absolute;
+	line-height: 1.2;
+	top: 50%; margin-top: -2rem;
+	right: 0.3rem;
+	width: 0.6rem;
+}
+#pro-list .pro-item ul .more i {
+	display: block;
+	width: 0.65rem; height: 0.65rem;
+	background: url('../images/more.png') no-repeat;
+	background-size: 0.65rem;
+}
+
+#top {
+	margin-top: 10px;
+}
+#top .top-img {
+	display: block;
+	overflow: hidden;
+}
+#top .top-img img {
+	width: 100%; height: 5.75rem;
+}
+#top .top-list .top-item {
+	background: #fff;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+#top .top-list .top-item h2 {
+	text-align: center;
+	font-size: 0.7rem;
+	margin-bottom: 10px;
+}
+#top .top-list .top-item ul {
+	overflow: hidden;
+	padding: 0 20px;
+}
+#top .top-list .top-item ul li {
+	float: left;
+	width: 50%;
+}
+#top .top-list .top-item ul li a {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+#top .top-list .top-item ul li a .new {
+	width: 1.35rem; height: 1.35rem;
+	position: absolute;
+	top: 0; left: 0;
+}
+#top .top-list .top-item ul li a .pro-img {
+	width: 6.35rem; height: 6.35rem;
+	margin: 0 auto;
+}
+#top .top-list .top-item ul li a .pro-name {
+	text-align: center;
+}
+#top .top-list .top-item ul li a .pro-price {
+	text-align: center;
+	color: #f00;
+}
+#top .top-list .top-item ul li a .pro-price span {
+	color: #999;
+}
+
+#footer ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+#footer ul li {
+	padding: 0 13px;
+	border-right: 1px solid #aaa;
+}
+#footer ul li a {
+	color: #999;
+}
+#footer ul li a.active {
+	color: #000;
+}
+#footer ul li:last-child {
+	border-right: none;
+}
+#footer p {
+	color: #999;
+	line-height: 20px;
+}
+
+#back-top {
+	position: fixed;
+	right: 1rem; bottom: 4.5rem;
+	width: 1.7rem; height: 1.7rem;
+}
+#back-top img {
+	width: 1.7rem; height: 1.7rem;
+}
+
+#ad {
+	position: fixed;
+	bottom: 2rem; left: 0;
+	width: 100%; height: 2.05rem;
+}
+#ad span {
+	display: block;
+	position: absolute;
+	width: 1rem; height: 1rem;
+	right: 3px; top: 50%;
+	margin-top: -0.5rem;
+	font-size: 0.8rem;
+	color: #bbb;
+}

@@ -1,0 +1,86 @@
+.mine{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  background: #fafdfd;
+  .head{
+    .user{
+      position: relative;
+      margin: 0 auto;
+      height: 130px;
+      width: 130px;
+      padding: 20px;
+      img{
+        width: 90px;
+      }
+    }
+    .bg{
+      width:130px;
+      height: 130px;
+      background: url("http://img02.yiguo.com/e/web/150703/00781/140145/myyg-bg.png") no-repeat center;
+      background-size: 130px;
+      position: absolute;
+      left:0;
+      top:0;
+    }
+    .setting{
+      width: 21px;
+      height: 23px;
+      background: url("http://img05.yiguoimg.com/e/web/170111/00881/110627/icon-setup.png") no-repeat left;
+      background-size: 100%;
+      position: absolute;
+      right: 30px;
+      top:20px;
+    }
+    .userinfo{
+      width: 100%;
+      font-size: 14px;
+      margin:0 auto;
+      text-align: center;
+      p{
+        color: #008842;
+        line-height:1.1rem;
+      }
+    }
+    .money{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+    .money span{
+      width: 50%;
+      font-size:0.4rem;
+      text-align: center;
+      color: #008842;
+    }
+  }
+  .user-list{
+    width: 80%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li{
+      width: 3.25rem;
+      height:3.85rem;
+      text-align: center;
+      a{
+        margin: 0px auto;
+        width: 48px;
+        height: 48px;
+        display: block;
+        background: url("http://img06.yiguoimg.com/e/web/161208/00342/133833/icon-usercenter.png") no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+
+      }
+      p{
+        line-height: 1.1rem;
+        font-size: 0.5rem;
+      }
+    }
+  }
+}

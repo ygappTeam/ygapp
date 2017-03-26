@@ -3,15 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import style from './assets/css/index.scss'
-
+import store from './store'
+import mint from "mint-ui"
+import "./config/config.js"
+import axios from "axios"
+import "../static/neat-min.css"
+import 'mint-ui/lib/style.css'
 Vue.config.productionTip = false
 
-Vue.use(style)
+Vue.use(axios)
+Vue.use(mint)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   template: '<App/>',
   components: { App }

@@ -1,0 +1,151 @@
+.register{
+  position: fixed;
+  left: 0;
+  top:0;
+  bottom: 0;
+  right: 0;
+  background: #f8f8f8;
+
+  input,button{
+    border: none;
+    outline: 0;
+  }
+  form{
+    margin-top: 30px;
+  }
+  .userInfo{
+    width: 100%;
+    margin-top: 30px;
+    background: #fff;
+    padding-left: 15px;
+    margin-bottom:15px;
+  }
+  .userInfo li{
+    width: 100%;
+    height:2.6rem;
+    padding:15px 0;
+    border-bottom: 1px #e7e7e7 solid;
+    input{
+      font-size: 16px;
+      padding-left: 10px;
+      float:left;
+    }
+  }
+  .usertel{
+    span{
+      display: block;
+      float: right;
+      font-size: 0.6rem;
+      margin-right: 20px;
+      width:85px;
+      height: 30px;
+      border-radius: 5px;
+      background:#008842;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+  .btn{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    justify-content: space-around;
+    button{
+      font-size: 0.7rem;
+      width: 40%;
+      height: 42px;
+      text-align: center;
+      ;line-height: 42px;
+      border-radius: 5px;
+    }
+  }
+  #wrap{
+    font-size: 15px;
+    position: fixed;
+    color: #666;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 5;
+    .modal{
+      width:90%;
+      height:7.2rem;
+      margin: 0 auto;
+      margin-top: 20px;
+      background: #fff;
+      border-radius: 5px;
+      .title{
+        padding-left: 9px;
+        line-height: 1.8rem;
+        border-bottom: 1px #e7e7e7 solid;
+      }
+      .close{
+        font-size: 20px;
+        color: #eee;
+        float: right;
+        margin-right:1rem;
+      }
+      input{
+        border: 1px #f8f8f8 solid;
+        width:5.1rem;
+        height:1.5rem;
+      }
+      .verificationCode{
+        margin-top: 0.6rem;
+        display: flex;
+        justify-content: center;
+        span{
+          display: block;
+          width:3rem;
+          height: 1.5rem;
+          margin-left: 1rem;
+          text-align: center;
+          line-height: 1.5rem;
+          border: 1px #eee solid;
+        }
+      }
+      .submit{
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        button{
+          width:4.5rem;
+          height: 1.3rem;
+          background: #008842;
+          color: #fff;
+          text-align: center;
+          line-height: 1.3rem;
+          border-radius:3px;
+        }
+      }
+
+    }
+  }
+
+  #back{
+    border: 1px #008842 solid;
+    color: #008842;
+    background: #fff;
+  }
+  #register{
+    background: #008842;
+    color: #fff;
+  }
+  .footer{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom:20px;
+    text-align: center;
+  }
+  .footer img{
+    width: 5.2rem;
+    height: 1.5rem;
+  }
+}
+
+
