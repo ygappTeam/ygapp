@@ -14,6 +14,13 @@ import Login from "../components/login.vue"
 import Register from "../components/register.vue"
 import Mine from "../components/mine.vue"
 import Setting from '../components/setting.vue'
+import ProductList from "../components/product-list.vue";
+import ProductDetail from "../components/product-detail.vue";
+import UserOrder from "../views/user-order.vue";
+import AllOrder from "../components/myorders/all-orders.vue";
+import Unpaid from "../components/myorders/unpaid.vue";
+import Receiving from "../components/myorders/receiving.vue";
+import Comment from "../components/myorders/comment.vue"
 
 Vue.use(Router)
 
@@ -82,6 +89,38 @@ export default new Router({
       path:"/setting",
       name:"setting",
       component:Setting
+    },
+    {
+      name:ProductList.name,
+      path:'/product',
+      component:ProductList
+    },
+    {
+      name:ProductDetail.name,
+      path:'/detail/:id',
+      component:ProductDetail
+    },
+    {
+      name:UserOrder.name,
+      path:'/userorder',
+      component:UserOrder,
+      children:[{
+        path:"allorder",
+        name:AllOrder.name,
+        component:AllOrder
+      },{
+        path:"unpaid",
+        name:Unpaid.name,
+        component:Unpaid
+      },{
+        path:"receiving",
+        name:Receiving.name,
+        component:Receiving
+      },{
+        path:"comment",
+        name:Comment.name,
+        component:Comment
+      }]
     }
   ]
 })

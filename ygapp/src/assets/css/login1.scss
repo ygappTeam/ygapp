@@ -6,6 +6,7 @@
   bottom: 0;
   right: 0;
   background: #f8f8f8;
+  text-align: left;
   input, button {
     border: none;
     outline: 0;
@@ -58,6 +59,8 @@
     border: 1px #000000 solid;
     text-align: center;
     line-height: 1.5rem;
+    font-style: italic;
+    text-decoration: line-through;
   }
   .forget_password {
     padding-top: 20px;

@@ -20,7 +20,7 @@
 
     <ul class="user-list">
       <li v-for="data in listData">
-        <a href="javascript:;" :style="{'background-position':data.bgPosition}"></a>
+        <a href="#/userorder" :style="{'background-position':data.bgPosition}"></a>
         <p>{{data.itemName}}</p>
       </li>
     </ul>

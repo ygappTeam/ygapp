@@ -15,7 +15,7 @@
         </div>
         <ul class="detailnav"  :class="{'show':item.showFlag}">
           <li v-for="(name,i) in dataList[index].Childs" :index="i">
-            <a href="#/classify:id">
+            <a href="#/product">
               {{name.CategoryName}}
             </a>
           </li>
@@ -51,14 +51,14 @@ export default {
       }).catch(res=>console.log(res))
     },
     showDetail(item,index){
-      let _self = this;  
+      let _self = this;
       this.dataList.forEach((el,i)=>{
         if(!el.showFlag){
-          _self.$set(el,'showFlag',false)   
+          _self.$set(el,'showFlag',false)
         }else{
           el.showFlag = false;
         }
-      })  
+      })
       item.showFlag = true;
       if(this.i==index){
         item.showFlag = !item.showFlag;
@@ -84,7 +84,7 @@ export default {
     left: 1.2rem;
     width: 1rem;
     height: 1rem;
-    
+
    }
    .search_ipt{
     background: #f8f8f8;
@@ -100,7 +100,7 @@ export default {
      width:100%;
      height:100%;
    }
-   .listwrapper{    
+   .listwrapper{
       width:100%;
       margin:0;
       padding-top:1.1rem
@@ -109,7 +109,7 @@ export default {
      border-bottom: 1px solid #e1e5e5;
      height:3rem;
      overflow:hidden;
-     
+
    }
    .detailnav{
     display: none;
@@ -117,7 +117,7 @@ export default {
     list-style: none;
     border-bottom: 3px solid #e1e5e5;
     font-size:0.7rem;
-    overflow:hidden;  
+    overflow:hidden;
    }
    .detailnav li{
      float:left;
@@ -132,7 +132,7 @@ export default {
     padding-top: 0.9rem;
     overflow:hidden;
    }
-  
+
    .title img{
     float:left;
     width:2.2rem;

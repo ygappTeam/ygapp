@@ -52,8 +52,12 @@
       register: function () {
         var pattern = /^[a-z0-9_-]{6,18}$/;
         var res = pattern.test(this.psd);
+        var p = /^1\d{10}$/;
+        var r = p.test(this.tel);
         if (this.tel == "") {
           MessageBox.alert("手机号不能为空", "");
+        }else if(!r){
+          MessageBox.alert("手机号输入不合法", "");
         } else if (this.code == "") {
           MessageBox.alert("验证码不能为空", "");
         } else if (this.psd == '') {
@@ -78,9 +82,10 @@
           } else {
             userData[userName] = password;
             window.localStorage.setItem("registers", JSON.stringify(userData));
+            location.href = "#/";
           }
         }
-        location.href = "#/";
+
       },
       //获取验证码
       getCode: function () {

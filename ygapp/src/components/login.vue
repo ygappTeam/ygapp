@@ -47,17 +47,17 @@
         * {"12345678901":"123456"}
         * */
         if(this.userName==""){
-          MessageBox.alert("用户名不能为空!");
+          MessageBox.alert("用户名不能为空!","");
         }else if(this.password==""){
-          MessageBox.alert("密码不能为空！");
+          MessageBox.alert("密码不能为空！","");
         }else if(this.code==""){
-          MessageBox.alert("验证码不能为空！");
+          MessageBox.alert("验证码不能为空！","");
         }else if(this.code!=this.num){
-          MessageBox.alert("验证码不正确");
+          MessageBox.alert("验证码不正确","");
         }else if(userData[this.userName]!=this.password){
-          MessageBox.alert("密码不正确");
+          MessageBox.alert("密码不正确","");
         }else if(!(this.userName in userData)){
-          MessageBox.alert("用户名不存在");
+          MessageBox.alert("用户名不存在","");
         }else{
           //登录成功跳转到我的易果
           location.href="#/mine";
