@@ -54,11 +54,13 @@
         border:solid #008842;
         border-width: 0px 1px 0 0 ;
         margin:0;
-        font:14px/35px "";
+        font-size: 14px !important;
+        line-height:35px;
         color:#008842;
 
         a{
-          font:14px/35px "";
+          font-size: 14px !important;
+          line-height:35px;
           color:#008842;
           text-decoration:none;
           height:35px;width:100%;

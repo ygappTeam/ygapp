@@ -1,5 +1,5 @@
 <template>
-  <div class="products">
+  <div class="products" id="products-list">
     <div class="products-head">
       <ul >
         <li @click="moren($event)" data-id="1" :class="dataset==1?'active':''">默认</li>
@@ -69,14 +69,15 @@
 
     }
   </script>
-<style scoped>
-  .products{width:100%;
+<style lang="scss" type="text/scss" rel="stylesheet/scss" scoped>
+
+  #products-list{width:100%;
 
     border-bottom:1px solid #eee;
     overflow:hidden;
-    background:#fcfbfd
-  }
-  .products .products-head{
+    background:#fcfbfd;
+
+  .products-head{
     width:90%;
     overflow:hidden;
     margin:0 auto;
@@ -85,7 +86,7 @@
     border-right:none
   }
   .products-head ul{overflow:hidden;width:100%;border:1px solid green;margin:5px 0 10px 0;border-radius:5px;}
-  .products-head ul li{float:left;width:33.3%;border-right:1px solid green;height:35px;font:14px/35px "";margin:0;color:green;}
+  .products-head ul li{float:left;width:33.3%;border-right:1px solid green;height:35px;font-size:14px !important;line-height:35px;margin:0;color:green;}
   .products-head .active{
     color:#fff;
     font:16px/35px "";
@@ -147,7 +148,7 @@
   }
   .goods-price .price{color:red;font-size:16px;}
   .des{
-    font:12px ""
+    font-size:12px !important;
   }
   .add-cart{
     background: url(../assets/images/add_cart.png) no-repeat center;
@@ -158,5 +159,6 @@
     overflow: hidden;
     width: 42px;
     height: 42px;
+  }
   }
 </style>

@@ -102,17 +102,19 @@ import navbar from './common/navbar'
       loadBottom() {
       // 加载更多数据
         this.getData(); //让之前的数据和本次的数据合并
-
       },
       getData(){
-        this.allLoaded =  this.page >= 9 ? true : false;
-        axios.get('../../static/json/eatData.json').then(res=>{
-          var totData = res.data;
-          this.listData = this.listData.concat(totData[this.page++].RspData.ArticleList.List)
-          console.log(this.listData);
-          console.log(this.page);
-          console.log(this.allLoaded);
-        }).catch(res=>console.log(res))
+         this.allLoaded =  this.page >= 9 ? true : false;
+        if(!this.allLoaded){
+          axios.get('../../static/json/eatData.json').then(res=>{
+            var totData = res.data;
+            console.log(877);
+            this.listData = this.listData.concat(totData[this.page++].RspData.ArticleList.List)
+            console.log(this.listData);
+            console.log(this.page);
+            console.log(this.allLoaded);
+          }).catch(res=>console.log(res))
+        }
       }
     },
     mounted () {

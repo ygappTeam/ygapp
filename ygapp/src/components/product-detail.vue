@@ -245,7 +245,8 @@
     height:1.4rem;
     color:#666;
     float:left;
-    font:14px/1.4rem "";
+    font-size:14px;
+    line-height: 1.4rem;
   }
   .quantity .increment{
     border-left:1px solid #9e9e9e;
